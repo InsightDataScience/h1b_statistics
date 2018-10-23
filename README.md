@@ -47,7 +47,7 @@ The records in the file must be sorted by __`NUMBER_CERTIFIED_APPLICATIONS`__, a
 Each line of the `top_10_states.txt` file should contain these fields in this order:
 1. __`TOP_STATES`__: State where the work will take place
 2. __`NUMBER_CERTIFIED_APPLICATIONS`__: Number of applications that have been certified for work in that state. An application is considered certified if it has a case status of `Certified`
-3. __`PERCENTAGE`__: % of applications that have been certified in that state compared to total number of certified applications
+3. __`PERCENTAGE`__: % of applications that have been certified in that state compared to total number of certified applications regardless of state.
 
 The records in this file must be sorted by __`NUMBER_CERTIFIED_APPLICATIONS`__ field, and in case of a tie, alphabetically by __`TOP_STATES`__. 
 
